@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Manoj from './components/functional/first';
 import ManojKumar from './components/fakestore';
+import Buttonname from './components/functional/button';
+import ButtonComponent from './components/Class-componenet/button';
+import Click from './components/Class-componenet/Click';
 
 
 
@@ -9,8 +12,11 @@ import ManojKumar from './components/fakestore';
 function App() {
   return (
     <div className="App">
+      <Buttonname></Buttonname>
+      <ButtonComponent></ButtonComponent>
+      <Click></Click>
 
-     <ManojKumar/>
+     {/* <ManojKumar/> */}
 
 
 
