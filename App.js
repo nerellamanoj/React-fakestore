@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Manoj from './components/functional/first';
+import Manoj from './components/functional-components/first';
 import ManojKumar from './components/fakestore';
-import Buttonname from './components/functional/button';
+import Buttonname from './components/functional-components/button';
 import ButtonComponent from './components/Class-componenet/button';
 import Click from './components/Class-componenet/Click';
+import ImageCustom from './components/Class-componenet/image';
+import ImageCustoms from './components/functional-components/image';
 
 
 
@@ -12,9 +14,13 @@ import Click from './components/Class-componenet/Click';
 function App() {
   return (
     <div className="App">
-      <Buttonname></Buttonname>
+      
       <ButtonComponent></ButtonComponent>
       <Click></Click>
+      <ImageCustom></ImageCustom>
+      <ImageCustoms></ImageCustoms>
+      <Buttonname></Buttonname>
+      
 
      {/* <ManojKumar/> */}
 
